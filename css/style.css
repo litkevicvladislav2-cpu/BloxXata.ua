@@ -1,7 +1,7 @@
 body {
 font-family: Arial, sans-serif;
 font-size: 100%;
-background-color: #FFDDE1;
+background-color: #9ac0be;
 }
 ul {
   margin: 0;
@@ -18,11 +18,11 @@ header {
     background-color: #639FAB;
 }
 h1,h2 {
-    color: gray;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 nav {
-    background-color: #C1666B;
+    background-color: #ffb0b4;
     border-color: #48A9A9;
     min-height: 64px;
 }
@@ -55,7 +55,7 @@ footer {
     margin-top: 30px;
 }
 .img {
-    width: 200px;
+    width: 300px;
 }
 .left {
     float: left;
