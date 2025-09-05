@@ -92,3 +92,25 @@ footer {
     width: 33.33%;
     box-sizing: border-box;
 }
+
+.team {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;        /* базовий розмір рядків */
+  line-height: 1.4;
+  margin: 0;              /* підлаштуй під свій макет */
+}
+
+/* кожен <span> всередині стає блоком (новий рядок) */
+.team > span {
+  display: block;
+  margin: 4px 0;
+}
+
+/* стиль для першого рядка (заголовка) */
+.team > .title {
+  display: block;         /* вже блочний, для надійності */
+  text-align: center;     /* по центру */
+  font-size: 1.6rem;      /* великий шрифт — підлаштуй під бажане */
+  font-weight: 700;
+  margin-bottom: 8px;
+}
