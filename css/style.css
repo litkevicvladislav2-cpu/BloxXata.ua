@@ -39,7 +39,7 @@ nav a {
 }
 nav li a:hover {
     color: #FFE347;
-    background-color: #EF767A;
+    background-color: #cde295;
 }
 p {
       font-size: 16px;
@@ -109,7 +109,7 @@ footer {
 /* стиль для першого рядка (заголовка) */
 .team > .title {
   display: block;         /* вже блочний, для надійності */
-  text-align: center;     /* по центру */
+  text-align: left;     /* по центру */
   font-size: 1.6rem;      /* великий шрифт — підлаштуй під бажане */
   font-weight: 700;
   margin-bottom: 8px;
